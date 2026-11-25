@@ -42,7 +42,7 @@ and the Spot USD assets, which Isaac Lab downloads on first use.
 
 ```bash
 # 1. Get the repo and an Isaac Lab checkout at the commit above
-git clone https://github.com/<you>/spot-sim-to-real.git
+git clone https://github.com/SudharshanSuman/spot-sim-to-real.git
 git clone https://github.com/isaac-sim/IsaacLab.git
 git -C IsaacLab checkout e3f7d9f
 (cd IsaacLab && ./isaaclab.sh --install)
