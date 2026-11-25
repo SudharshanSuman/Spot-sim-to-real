@@ -1,0 +1,24 @@
+# Checkpoints and large run artifacts: keep out of git
+*.pt
+*.pth
+*.onnx
+*.safetensors
+*.tfevents.*
+logs/
+backup/
+textlogs/
+*.log
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+ros_venv/
+.ipynb_checkpoints/
+
+# Isaac Lab / Warp caches
+.cache/
+*.usd
+*.usda
+*.usdc
+!runs/**/*.usd
